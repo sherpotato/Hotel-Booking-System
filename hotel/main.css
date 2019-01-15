@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: helvetica;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 15px 15px 0px 15px;
+}
+
+header h2 {
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+    display: inline;
+}
+
+nav ul li {
+    background: #222;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.secondary {
+    color: blue;
+}
+
+.row {
+    clear: both;
+}
+
+.col {
+    background: #333;
+    border-radius: 5px;
+    padding: 10px 0.5px;
+    color: white;
+    float: middle;
+    margin: 0.5%;
+    width: 99%;
+}
+
+footer {
+    clear: both;
+}
